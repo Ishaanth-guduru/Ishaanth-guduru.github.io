@@ -16,6 +16,14 @@
   <div class="card">
     <div style="text-align:left">
       <h1 style="text-align:center">Projects</h1>
+      <h2>Autonomous Course-Navigating Robot</h2>
+      <img src="robo.jpg" alt="Autonomous Course-Navigating Robot" style="max-width:100%">
+      <h3>The Problem</h3>
+      <p>Building a robot that drives itself through a course sounds simple, but real mtoros never behce identically. Small differences between wheels, surface friction, and battery voltsge cause a differntial-drive robot to drift off its intended path, and those erros compound over distance. The challenge was to design and build a roboto that could navigate a course autonomously with consistent precision while also picking up and manipulating objects along the way. That meant solving two problems at once: accurate motion control and reliable mechanical handling, all on a compact embedded platform with limited processingpower and no human input once it started.</p>
+      <h3>The Process</h3>
+      <p>I built the robot around an Arduino Nano 33 BLE and a differential-drive chassis. To fix drift, I implemented a PID control loop that used encoder readings for distance and gyroscope data for heading, then repeatedly tuned the constants through test runs until robot tracked straight lines and turns accurately. I designed and integrated a gripper/claw mechanism so it could grab objects mid-course, coordinating it with the navigation code. An OLED display showered real-time sensor values and system states, which made debugging much faster. I worked iteratively, testing each subsystem on its own before combining them. </p>
+      <h3>The Outcome</h3>
+      <p>The finished robot navigated the course autonomously, using PID control with encoder and gyroscope feedback to hold its heading and correct drfit. I placed top 5 at state Science Olympiad Competition suing this robot. The gripper picked up and handled objects along the route without any human input. Through this project, I learned how much tuning and testing seperate a design that works on paper from one thst works in practice. I also learned to build and verify each subsystem on its own before integrating them, and to use live debugging feedback to find problems quickly. </p>
       <h2>Discovery Project</h2>
       <img src="discovery.jpg" alt="Discovery Project" style="max-width:100%">
       <h3>The Problem</h3>
