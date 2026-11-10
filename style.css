@@ -1,0 +1,14 @@
+body{margin:0;min-height:100vh;display:flex;justify-content:center;
+ padding:40px 20px 40px 70px;box-sizing:border-box;
+ font-family:"Century Gothic",Arial,sans-serif;color:#2b3a67;
+ background:linear-gradient(135deg,#dfe3f5,#f3eef8)}
+.wrap{position:relative;max-width:900px;width:100%}
+.card{background:#fff;padding:40px;border-radius:6px;text-align:center}
+.tabs{position:absolute;left:-44px;top:20px;display:flex;
+ flex-direction:column;gap:6px}
+.tabs a{writing-mode:vertical-rl;transform:rotate(180deg);
+ padding:18px 10px;background:#7d93cf;color:#fff;
+ text-decoration:none;border-radius:0 8px 8px 0}
+.tabs a.active{background:#fff;color:#2b3a67}
+.avatar{width:200px;height:200px;border-radius:50%;object-fit:cover}
+.social a{font-size:40px;margin:0 8px;color:#3b5fc0}
